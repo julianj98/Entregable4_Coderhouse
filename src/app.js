@@ -48,6 +48,17 @@ io.on('connection', (socket) => {
 export {io};
 //RUTA RAIZ (SOLO HANDLEBARS SIN WEBSOCKET): localhost:8080/
 //RUTA PARA LOS PRODUCTOS EN TIEMPO REAL CON WEBSOCKET: localhost:8080/realtimeproducts
+/** EJEMPLO PARA PROBAR EL POST
+ * {
+    "title": "producto prueba 11",
+    "description": "Este es un producto prueba 11",
+    "code": "abc111",
+    "price": 300,
+    "stock": 8000,
+    "category": "cloth",
+    "thumbnail": "sim imagen"
+  } */
+
 
 /*CONSULTAS AL ENDPOINT (reemplazar la x por el id)
 para PRODUCTS
